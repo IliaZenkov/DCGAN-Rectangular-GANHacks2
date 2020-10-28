@@ -9,7 +9,7 @@ It was notably harder to get good-looking rectangular images compared to square 
 
 ## 59 Epochs at 157x128
 Images generated from 100 numbers randomly sampled from a standard normal Gaussian distribution:
-<img src="generated_images/007459.jpg">
+<img src="generated_images/007459.jpg" height=600 width=600>
 
 ## Lessons Learned: How to Stabilize and Optimize a GAN
 - Use Dropout ONLY ON DISCRIMINATOR, and not on final layer of disciriminator. 
