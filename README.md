@@ -11,12 +11,12 @@ It was notably harder to get good-looking rectangular images compared to square 
 <img src="generated_images/007459.jpg">
 
 ## DCGAN Loss Curve Dynamics and Gradients:
-##### Well optimized GAN with stable long-term loss curve dynamics and high gradients through all discriminator layers:
+#### Well optimized GAN with stable long-term loss curve dynamics and high gradients through all discriminator layers:
 <img src="reports/good loss dynamics relu.GIF">
 <img src="reports/DCGAN_loss1.GIF">
 <img src="reports/good gradient.GIF">
 
-##### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
+#### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
 <img src="reports/unstable losses_bad gradients.GIF">
 <img src="reports/512x512 fail to converge.GIF">
 <img src="reports/super low gradient.GIF">
