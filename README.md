@@ -9,3 +9,14 @@ It was notably harder to get good-looking rectangular images compared to square 
 
 ## 59 Epochs at 157x128
 <img src="generated_images/007459.jpg">
+
+## DCGAN Loss Curve Dynamics and Gradients:
+#### Well optimized GAN with high gradients through all layers and stable long-term loss curve dynamics:
+<img src="reports/good loss dynamics relu.GIF">
+<img src="reports/DCGAN_loss1.GIF">
+<img src="reports/good gradient.GIF">
+
+#### Poorly optimized GAN with no information gain:
+<img src="reports/unstable losses_bad gradients.GIF">
+<img src="reports/super low gradient.GIF">
+
