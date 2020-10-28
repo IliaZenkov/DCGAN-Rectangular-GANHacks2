@@ -1,4 +1,4 @@
-# Advanced DCGAN for Rectangles
+# Advanced Rectangular DCGAN 
 An in-depth look at DCGANs, the motivation behind them, and a highly detailed overview of the optimization techniques and tricks necessary to stabilize training between a Generator/Discriminator pair.
 
 ## [See Notebook with Exaplantions](https://nbviewer.jupyter.org/github/IliaZenkov/DCGAN-advanced-rectangle/blob/main/notebooks/Advanced_Rectangle_DCGAN.ipynb)
