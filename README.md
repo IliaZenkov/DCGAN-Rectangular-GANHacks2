@@ -18,5 +18,6 @@ It was notably harder to get good-looking rectangular images compared to square 
 
 ##### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
 <img src="reports/unstable losses_bad gradients.GIF">
+<img src="reports/512x512 fail to converge.GIF">
 <img src="reports/super low gradient.GIF">
 
