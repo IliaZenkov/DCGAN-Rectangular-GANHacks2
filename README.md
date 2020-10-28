@@ -10,6 +10,23 @@ It was notably harder to get good-looking rectangular images compared to square 
 ## 59 Epochs at 157x128
 <img src="generated_images/007459.jpg">
 
+## Lessons Learned: How to Stabilize and Optimize a GAN
+- Use Dropout ONLY ON DISCRIMINATOR, and not on final layer of disciriminator
+- LeakyReLU>SELU>ReLU
+- GaussianNoise ONLY ON DISCRIMINATOR
+- GaussianNoise/PixelNorm - not helpful to discriminator
+- Adam -> SGD for discriminator (to learn slower) - Not necessary with proper normalization
+- lowing down discriminator with learning rates and different learning schedule is dubious and rarely works
+- one-sided label smoothing: set discriminator labels for real images from 1 -> 0.9 to make the discriminator's job harder only
+- Popular GANHacks GitHub page incorrectly says to smooth both real and fake labels
+- SpectralNorm is a powerful normalization technique and can be used with BatchNorm
+- batch size: huge batch is much faster to train (1024), but smaller batches train MUCH better GANs.
+- batch in radford et al (128) works well; smaller batches (64) work even better but slower to train
+- BCELossWithlogits, no sigmoid on final discriminator layer: More Stable than BCELoss() due to log of exponential dynamics
+- SELU from HDCGAN paper (SNN): Didn't help. SpecNorm+BatchNorm probably means weights are already regularized enough that SELU behaves like LRELU
+- SELU is self normalizing but I found better to have explicit normalization such as SN and BN
+- Adding Gaussian Noise makes discriminator much less sensitive to hyperparams
+
 ## DCGAN Loss Curve Dynamics and Gradients:
 #### Well optimized GAN with stable long-term loss curve dynamics and high gradients through all discriminator layers:
 <img src="reports/good loss dynamics relu.GIF">
