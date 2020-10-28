@@ -1,7 +1,7 @@
 # Advanced Rectangular DCGAN 
 An in-depth look at DCGANs, the motivation behind them, and a highly detailed overview of the optimization techniques and tricks necessary to stabilize training between a Generator/Discriminator pair. I stray from the common path and try to generate sort-of-HD CelebA images in their original, rectangular, 5:4 aspect ratio at 157x128. 
 
-## [See Notebook with Exaplantions](https://nbviewer.jupyter.org/github/IliaZenkov/DCGAN-advanced-rectangle/blob/main/notebooks/Advanced_Rectangle_DCGAN.ipynb)
+## [See Notebook with Explanations](https://nbviewer.jupyter.org/github/IliaZenkov/DCGAN-advanced-rectangular/blob/main/notebooks/DCGAN_rectangle_advanced.ipynb)
 ## [Play with it in Google Colab](https://colab.research.google.com/drive/1x2YM4UELhQtiutyYEkIb1cKlV5KZXPpd?usp=sharing)
 
 I build a GAN trained on and capable of generating CelebA in original aspect ratio (CelebA aligned: 218x178; 5:4).
