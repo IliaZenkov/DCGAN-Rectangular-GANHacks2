@@ -8,7 +8,7 @@ I build a GAN trained on and capable of generating CelebA in original aspect rat
 It was notably harder to get good-looking rectangular images compared to square images; but tuning the model to accomodate rectangular images is simply a matter of playing with kernel, stride, and padding sizes. 
 
 ## 59 Epochs at 157x128
-Images generated from 100 numbers samples from a random Gaussian distribution:
+Images generated from 100 numbers randomly sampled from a standard normal Gaussian distribution:
 <img src="generated_images/007459.jpg">
 
 ## Lessons Learned: How to Stabilize and Optimize a GAN
