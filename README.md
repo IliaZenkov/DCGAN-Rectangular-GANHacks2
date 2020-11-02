@@ -3,7 +3,7 @@
   <img src="generated_images/interpolation/interp-6.gif" height=157 width=128>
   <img src="generated_images/interpolation/interp-13.gif" height=157 width=128>
   <img src="generated_images/interpolation/interp-17.gif" height=157 width=128>
-  <img src="generated_images/interpolation/interp-19.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-19.gif" height=157 width=128> <br>
   <img src="generated_images/interpolation/interp-21.gif" height=157 width=128>
   <img src="generated_images/interpolation/interp-23.gif" height=157 width=128>
   <img src="generated_images/interpolation/interp-29.gif" height=157 width=128>
@@ -79,7 +79,7 @@ The discrimnator's loss oscillates wildly and will not stabilize as training con
 
 ## Bonus 
 
-<p float="center" align="center">
+<p float="left" align="center">
   I call this piece "Interpolated Circle of Death"
   <img src="generated_images/interpolation/interp-27.gif">
   <img src="generated_images/interpolation/interp-27-2.gif">
