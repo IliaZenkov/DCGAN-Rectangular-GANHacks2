@@ -20,7 +20,7 @@ An in-depth look at DCGANs, the motivation behind them, and a highly detailed ov
 I build a GAN trained on and capable of generating CelebA in original aspect ratio.
 It was notably harder to get good-looking rectangular images compared to square images; but tuning the model to accomodate rectangular images is simply a matter of playing with kernel, stride, and padding sizes. Getting good-looking results are another story - but I come close using Spectral Normalization, Gaussian Instance Noise, Dropout, one-sided label smoothing, and Scaled Exponential Linear Unit Activation (SELU). 
 
-## 25 Epochs at 157x128
+## Training Progress Over 25 Epochs at 157x128
 <p align="center">
 Images generated from 100-dimensional latent vectors sampled from a standard normal Gaussian distribution:
 
