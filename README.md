@@ -53,13 +53,12 @@ Images generated from 100 numbers randomly sampled from a standard normal Gaussi
 The discriminator's loss becomes the same on real and fake images, with total Discriminator and Generator loss approaching an equillibrium point. Gradients are of good magnitude throughout the discriminator's layers:
 <p float="center">
 <img src="reports/perfect fake to real loss.GIF", height=240, width=450>
-
-<img src="reports/good gradient.GIF", height=350, width=450>
+<img src="reports/good gradient.GIF", height=200, width=300>
 </p>
 
 #### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
 The discrimnator's loss oscillates wildly and will not stabilize as training continues. The Discriminator's gradients are too low for any information gain to pass to the Generator: 
 <p float="center">
 <img src="reports/unstable losses_bad gradients.GIF", height=240, width=450>
-<img src="reports/super low gradient.GIF", height=350, width=450>
+<img src="reports/super low gradient.GIF", height=200, width=300>
 </p>
