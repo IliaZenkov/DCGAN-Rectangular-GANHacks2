@@ -92,3 +92,20 @@ The discrimnator's loss oscillates wildly and will not stabilize as training con
 <p float="left" align="center">
   <img src="generated_images/mode_collapse.gif">
 </p>
+
+# References
+- Arjovsky and Bottou, 2017. Towards Principled Methods for Training Generative Adversarial Networks. https://arxiv.org/abs/1701.04862
+- Arjovsky et al, 2017. Wasserstein GAN. https://arxiv.org/abs/1701.07875 
+- Curto et al, 2020. High-resolution Deep Convolutional Generative Adversarial Networks. https://arxiv.org/pdf/1711.06491.pdf
+- Dumoulin and Visin, 2018. A guide to convolution arithmetic for deep learning. https://arxiv.org/pdf/1603.07285.pdf
+- Goodfellow et al, 2014. Generative Adversarial Networks. https://arxiv.org/abs/1406.2661
+- Heusel et al, 2017. GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium. https://arxiv.org/abs/1706.08500
+- Jenni and Favaro, 2019. On Stabilizing Generative Adversarial Training with Noise. https://arxiv.org/abs/1906.04612
+- Karras et al, 2017. Progressive Growing of GANs for Improved Quality, Stability, and Variation. https://arxiv.org/abs/1710.10196
+- Klambauer et al, 2017. Self-Normalizing Neural Networks. https://arxiv.org/abs/1706.02515
+- Liu et al, 2016. Large-scale CelebFaces Attributes (CelebA) Dataset. http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+- Mescheder et al, 2018. Which Training Methods for GANs do actually Converge? https://arxiv.org/pdf/1801.04406.pdf
+- Miyato et al, 2018. Spectral Normalization for Generative Adversarial Networks. https://arxiv.org/abs/1802.05957
+- Radford et al, 2015. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. https://arxiv.org/abs/1511.06434
+- Salimans et al, 2016. Improved Techniques for Training GANs. https://arxiv.org/pdf/1606.03498.pdf
+- Sonderby et al, 2016. Amortised MAP Inference for Image Super-resolution. https://arxiv.org/abs/1610.04490
