@@ -60,6 +60,13 @@ The discriminator's loss becomes the same on real and fake images, with total Di
 #### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
 The discrimnator's loss oscillates wildly and will not stabilize as training continues. The Discriminator's gradients are too low for any information gain to pass to the Generator: 
 <p float="center">
-<img src="reports/unstable losses_bad gradients.GIF", height=240, width=450>
-<img src="reports/super low gradient.GIF", height=200, width=300>
+  <img src="reports/unstable losses_bad gradients.GIF", height=240, width=450>
+  <img src="reports/super low gradient.GIF", height=200, width=300>
+</p>
+
+## Bonus 
+I call this piece "Interpolated Circle of Death"
+<p float="center">
+  <img src="generated_images/interpolation/interp-27.gif">
+  <img src="generated_images/interpolation/interp-27-2.gif">
 </p>
