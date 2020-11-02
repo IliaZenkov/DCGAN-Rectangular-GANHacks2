@@ -1,4 +1,4 @@
-<p float="center" align="center">
+<p float="left" align="center">
   <img src="generated_images/interpolation/interp-2.gif">
   <img src="generated_images/interpolation/interp-6.gif">
   <img src="generated_images/interpolation/interp-13.gif">
