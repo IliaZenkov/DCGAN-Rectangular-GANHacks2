@@ -1,3 +1,16 @@
+<p float="center" align="center">
+  <img src="generated_images/interpolation/interp-2.gif">
+  <img src="generated_images/interpolation/interp-6.gif">
+  <img src="generated_images/interpolation/interp-13.gif">
+  <img src="generated_images/interpolation/interp-17.gif">
+  <img src="generated_images/interpolation/interp-19.gif">
+  <img src="generated_images/interpolation/interp-21.gif">
+  <img src="generated_images/interpolation/interp-23.gif">
+  <img src="generated_images/interpolation/interp-29.gif">
+  <img src="generated_images/interpolation/interp-47.gif">
+  <img src="generated_images/interpolation/interp-48.gif">
+</p>
+
 # Advanced Rectangular DCGAN / GAN Hacks 2
 An in-depth look at DCGANs, the motivation behind them, and a highly detailed overview of the optimization techniques and tricks necessary to stabilize training between a Generator/Discriminator pair. This is my implementation of [Radford et al, 2015](https://arxiv.org/abs/1511.06434) with the addition of techniques presented in [Improved GAN, Salimans et al 2016](https://arxiv.org/abs/1606.03498), [Spectral Normalization, Miyato et al 2018](https://arxiv.org/abs/1802.05957), and others. I stray from the common path and try to generate sort-of-HD CelebA images in their original, rectangular, 5:4 aspect ratio at 157x128. 
 
@@ -52,21 +65,22 @@ Images generated from 100-dimensional latent vectors sampled from a standard nor
 ## DCGAN Loss Curve Dynamics and Gradients:
 #### Well optimized GAN with stable long-term loss curve dynamics and high gradients through all discriminator layers:
 The discriminator's loss becomes the same on real and fake images, with total Discriminator and Generator loss approaching an equillibrium point. Gradients are of good magnitude throughout the discriminator's layers:
-<p float="center">
+<p float="center" align="center">
 <img src="reports/perfect fake to real loss.GIF", height=240, width=450>
 <img src="reports/good gradient.GIF", height=200, width=300>
 </p>
 
 #### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
 The discrimnator's loss oscillates wildly and will not stabilize as training continues. The Discriminator's gradients are too low for any information gain to pass to the Generator: 
-<p float="center">
+<p float="center" align="center">
   <img src="reports/unstable losses_bad gradients.GIF", height=240, width=450>
   <img src="reports/super low gradient.GIF", height=200, width=300>
 </p>
 
 ## Bonus 
-I call this piece "Interpolated Circle of Death"
+
 <p float="center" align="center">
+  I call this piece "Interpolated Circle of Death"
   <img src="generated_images/interpolation/interp-27.gif">
   <img src="generated_images/interpolation/interp-27-2.gif">
 </p>
