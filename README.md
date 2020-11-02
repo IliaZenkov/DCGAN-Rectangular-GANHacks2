@@ -1,14 +1,14 @@
 <p float="left" align="center">
-  <img src="generated_images/interpolation/interp-2.gif">
-  <img src="generated_images/interpolation/interp-6.gif">
-  <img src="generated_images/interpolation/interp-13.gif">
-  <img src="generated_images/interpolation/interp-17.gif">
-  <img src="generated_images/interpolation/interp-19.gif">
-  <img src="generated_images/interpolation/interp-21.gif">
-  <img src="generated_images/interpolation/interp-23.gif">
-  <img src="generated_images/interpolation/interp-29.gif">
-  <img src="generated_images/interpolation/interp-47.gif">
-  <img src="generated_images/interpolation/interp-48.gif">
+  <img src="generated_images/interpolation/interp-2.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-6.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-13.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-17.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-19.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-21.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-23.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-29.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-47.gif" height=157 width=128>
+  <img src="generated_images/interpolation/interp-48.gif" height=157 width=128>
 </p>
 
 # Advanced Rectangular DCGAN / GAN Hacks 2
