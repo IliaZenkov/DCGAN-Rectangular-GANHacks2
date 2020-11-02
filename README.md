@@ -34,12 +34,14 @@ Images generated from 100 numbers randomly sampled from a standard normal Gaussi
 
 ## DCGAN Loss Curve Dynamics and Gradients:
 #### Well optimized GAN with stable long-term loss curve dynamics and high gradients through all discriminator layers:
-<img src="reports/good loss dynamics relu.GIF">
-<img src="reports/perfect fake to real loss.GIF">
-<img src="reports/DCGAN_loss1.GIF">
-<img src="reports/good gradient.GIF">
+The discriminator's loss becomes the same on real and fake images, with total Discriminator and Generator loss approaching an equillibrium point.
+<p float="left">
+ <img src="reports/perfect fake to real loss.GIF", height=300, width=300>
+<img src="reports/good gradient.GIF", height=300, width=300>
+</p>
 
 #### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
+The discrimnator's loss oscillates wildly and will not stabilize as training continues. 
 <img src="reports/unstable losses_bad gradients.GIF">
 <img src="reports/super low gradient.GIF">
 
