@@ -9,7 +9,7 @@ It was notably harder to get good-looking rectangular images compared to square 
 
 ## 59 Epochs at 157x128
 <p align="center">
-Images generated from 100 numbers randomly sampled from a standard normal Gaussian distribution:
+Images generated from 100-dimensional latent vectors sampled from a standard normal Gaussian distribution:
 
 <img src="generated_images/training_progress.gif" height=600 width=600>
 
