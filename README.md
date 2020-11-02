@@ -52,13 +52,13 @@ Images generated from 100 numbers randomly sampled from a standard normal Gaussi
 #### Well optimized GAN with stable long-term loss curve dynamics and high gradients through all discriminator layers:
 The discriminator's loss becomes the same on real and fake images, with total Discriminator and Generator loss approaching an equillibrium point.
 <p float="center">
-<img src="reports/perfect fake to real loss.GIF", height=300, width=500>
-<img src="reports/good gradient.GIF", height=350, width=350>
+<img src="reports/perfect fake to real loss.GIF", height=280, width=500>
+<img src="reports/good gradient.GIF", height=350, width=450>
 </p>
 
 #### Poorly Optimized GAN with unstable loss dynamics, vanishing gradients:
 The discrimnator's loss oscillates wildly and will not stabilize as training continues. 
 <p float="center">
 <img src="reports/unstable losses_bad gradients.GIF", height=300, width=500>
-<img src="reports/super low gradient.GIF", height=350, width=350>
+<img src="reports/super low gradient.GIF", height=350, width=450>
 </p>
