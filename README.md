@@ -85,3 +85,10 @@ The discrimnator's loss oscillates wildly and will not stabilize as training con
   <img src="generated_images/interpolation/interp-27.gif">
   <img src="generated_images/interpolation/interp-27-2.gif">
 </p>
+
+<p align="center"> And a rather humorous example of mode collapse: </p>
+            
+
+<p float="left" align="center">
+  <img src="generated_images/mode_collapse.gif">
+</p>
