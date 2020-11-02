@@ -80,6 +80,7 @@ The discrimnator's loss oscillates wildly and will not stabilize as training con
 ## Bonus 
 
 <p float="left" align="center">
+  
   I call this piece the "Interpolated Circle of Death"
   
   <img src="generated_images/interpolation/interp-27.gif">
