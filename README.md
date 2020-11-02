@@ -11,7 +11,7 @@ It was notably harder to get good-looking rectangular images compared to square 
 <p align="center">
 Images generated from 100 numbers randomly sampled from a standard normal Gaussian distribution:
 
-<img src="generated_images/007459.jpg" height=500 width=500>
+<img src="generated_images/training_progress.gif">
 </p>
 
 ## Lessons Learned: How to Stabilize and Optimize a GAN (or, GAN Hacks 2)
