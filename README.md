@@ -109,3 +109,22 @@ The discrimnator's loss oscillates wildly and will not stabilize as training con
 - Radford et al, 2015. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. https://arxiv.org/abs/1511.06434
 - Salimans et al, 2016. Improved Techniques for Training GANs. https://arxiv.org/pdf/1606.03498.pdf
 - Sonderby et al, 2016. Amortised MAP Inference for Image Super-resolution. https://arxiv.org/abs/1610.04490
+
+## Cite
+If you find this work useful in your own research, please cite as follows:
+
+```
+@misc{Zenkov-DCGAN-Rectangular,
+  author = {Zenkov, Ilia},
+  title = {DCGAN-Rectangular-GANHacks2},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/IliaZenkov/DCGAN-Rectangular-GANHacks2}},
+}
+```
+## Licence
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IliaZenkov/DCGAN-Rectangular-GANHacks2/blob/main/LICENSE)
+
+
