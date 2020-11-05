@@ -12,7 +12,7 @@
 </p>
 
 # Advanced Rectangular DCGAN / GAN Hacks 2
-An in-depth look at DCGANs, the motivation behind them, and a highly detailed overview of the optimization techniques and tricks necessary to stabilize training between a Generator/Discriminator pair. This is my implementation of [Radford et al, 2015](https://arxiv.org/abs/1511.06434) with the addition of techniques presented in [Improved GAN by Salimans et al 2016](https://arxiv.org/abs/1606.03498), [Spectral Normalization by Miyato et al 2018](https://arxiv.org/abs/1802.05957), [Progressive Growing of GANs by Karras et al 2017,](https://arxiv.org/abs/1710.10196) and others. I stray from the common path and try to generate sort-of-HD CelebA images in their original, rectangular, 5:4 aspect ratio at 157x128. 
+An in-depth look at DCGANs, the motivation behind them, and a highly detailed overview of the optimization techniques and tricks necessary to stabilize training between a Generator/Discriminator pair. This is my implementation of [Radford et al, 2015](https://arxiv.org/abs/1511.06434) with the addition of techniques presented in [Improved GAN by Salimans et al 2016](https://arxiv.org/abs/1606.03498), [Spectral Normalization by Miyato et al 2018](https://arxiv.org/abs/1802.05957), [Progressive Growing of GANs by Karras et al 2017,](https://arxiv.org/abs/1710.10196) and others. I stray from the common path and try to generate "almost-HD" CelebA images in their original, rectangular, 5:4 aspect ratio at 157x128. 
 
 ## [See Notebook with Explanations](https://nbviewer.jupyter.org/github/IliaZenkov/DCGAN-Rectangular-GANHacks2/blob/main/DCGAN_rectangular.ipynb)
 ## [Play with it in Google Colab](https://colab.research.google.com/drive/1x2YM4UELhQtiutyYEkIb1cKlV5KZXPpd?usp=sharing)
